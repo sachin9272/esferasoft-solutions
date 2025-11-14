@@ -1,0 +1,61 @@
+/* App.css */
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.cardTitle {
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  box-sizing: border-box;   /* keeps input inside the card */
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.addBtn {
+  padding: 10px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.removeBtn {
+  margin-top: 10px;
+  padding: 8px;
+  background: #dc3545;
+  color: #fff;
+  border: none;
+}
